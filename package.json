@@ -1,7 +1,7 @@
 {
     "name": "dedupe",
-    "description": "dedupe",
-    "version": "0.2.2",
+    "description": "remove duplicates from your array",
+    "version": "0.2.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/zaphod1984/dedupe.git"
@@ -16,7 +16,10 @@
         "index.js"
     ],
     "main": "./index.js",
-    "keywords": [],
+    "keywords": [
+        "duplicates",
+        "array"
+    ],
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha tests"
     }
