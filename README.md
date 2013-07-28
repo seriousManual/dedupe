@@ -1,7 +1,7 @@
 # dedupe
 
-[![Build Status](https://travis-ci.org/zaphod1984/dust-compressor.png)](https://travis-ci.org/zaphod1984/dust-compressor)
-[![NPM version](https://badge.fury.io/js/dust-compressor.png)](http://badge.fury.io/js/dust-compressor)
+[![Build Status](https://travis-ci.org/zaphod1984/dedupe.png)](https://travis-ci.org/zaphod1984/dedupe)
+[![NPM version](https://badge.fury.io/js/dedupe.png)](http://badge.fury.io/js/dedupe)
 
 removes duplicates from your array.
 
