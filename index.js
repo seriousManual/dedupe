@@ -1,21 +1,15 @@
-var ce = require('cloneextend');
-
 function dedupe(client, hasher) {
     hasher = hasher || JSON.stringify;
 
-    var clone = ce.clone(client);
-
+    var clone = [];
     var lookup = {};
 
-    var cloneIndex = 0;
-    for(var i = 0; i < client.length; i++, cloneIndex++) {
+    for(var i = 0; i < client.length; i++) {
         var elem = client[i];
         var hashed = hasher(elem);
 
-        if(lookup[hashed]) {
-            clone.splice(cloneIndex, 1);
-            cloneIndex--;
-        } else {
+        if(!lookup[hashed]) {
+            clone.push(elem);
             lookup[hashed] = true;
         }
     }
