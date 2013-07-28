@@ -11,11 +11,11 @@ console.log(b);
 //result: [1,2,3];
 ```
 
-## complex types types
+## complex types
 ```javascript
 var aa = [{a:2},{a:1},{a:1},{a:1}];
 var bb = dedupe(aa);
-console.log( bb );
+console.log(bb);
 
 //result: [{a:2},{a:1}]
 ```
