@@ -7,7 +7,9 @@
         "url": "https://github.com/zaphod1984/dedupe.git"
     },
     "author": "Manuel Ernst <zaphod84@gmx.de>",
-    "dependencies": {},
+    "dependencies": {
+        "cloneextend":"*"
+    },
     "devDependencies": {
         "mocha": "*",
         "chai": "*",
