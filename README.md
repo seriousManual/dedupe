@@ -1,5 +1,8 @@
 # dedupe
 
+[![Build Status](https://travis-ci.org/zaphod1984/dust-compressor.png)](https://travis-ci.org/zaphod1984/dust-compressor)
+[![NPM version](https://badge.fury.io/js/dust-compressor.png)](http://badge.fury.io/js/dust-compressor)
+
 removes duplicates from your array.
 
 ## primitive types
