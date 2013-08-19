@@ -1,7 +1,8 @@
 # dedupe
 
 [![Build Status](https://travis-ci.org/zaphod1984/dedupe.png)](https://travis-ci.org/zaphod1984/dedupe)
-[![NPM version](https://badge.fury.io/js/dedupe.png)](http://badge.fury.io/js/dedupe)
+
+[![NPM](https://nodei.co/npm/dedupe.png)](https://nodei.co/npm/dedupe/)
 
 removes duplicates from your array.
 
