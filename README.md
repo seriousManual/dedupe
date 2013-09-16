@@ -4,6 +4,8 @@
 
 [![NPM](https://nodei.co/npm/dedupe.png)](https://nodei.co/npm/dedupe/)
 
+[![NPM](https://nodei.co/npm-dl/dedupe.png?months=3)](https://nodei.co/npm/dedupe/)
+
 removes duplicates from your array.
 
 ## primitive types
