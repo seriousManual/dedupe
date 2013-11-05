@@ -1,26 +1,26 @@
 {
-    "name": "dedupe",
-    "description": "remove duplicates from your array",
-    "version": "0.2.4",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zaphod1984/dedupe.git"
-    },
-    "author": "Manuel Ernst <zaphod84@gmx.de>",
-    "dependencies": {},
-    "devDependencies": {
-        "mocha": "*",
-        "chai": "*"
-    },
-    "files": [
-        "index.js"
-    ],
-    "main": "./index.js",
-    "keywords": [
-        "duplicates",
-        "array"
-    ],
-    "scripts": {
-        "test": "./node_modules/mocha/bin/mocha tests"
-    }
+  "name": "dedupe",
+  "description": "remove duplicates from your array",
+  "version": "0.2.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaphod1984/dedupe.git"
+  },
+  "author": "Manuel Ernst <zaphod84@gmx.de>",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "keywords": [
+    "duplicates",
+    "array"
+  ],
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests"
+  }
 }
