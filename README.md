@@ -1,6 +1,4 @@
-# dedupe
-
-[![Build Status](https://travis-ci.org/zaphod1984/dedupe.png)](https://travis-ci.org/zaphod1984/dedupe)
+# dedupe [![Build Status](https://travis-ci.org/zaphod1984/dedupe.png)](https://travis-ci.org/zaphod1984/dedupe)
 
 [![NPM](https://nodei.co/npm/dedupe.png)](https://nodei.co/npm/dedupe/)
 
@@ -8,7 +6,15 @@
 
 removes duplicates from your array.
 
-## primitive types
+## Installation
+
+````bash
+$ npm install dedupe
+````
+
+## Usage
+
+### primitive types
 ```javascript
 var a = [1,2,2,3];
 var b = dedupe(a);
@@ -17,7 +23,7 @@ console.log(b);
 //result: [1,2,3];
 ```
 
-## complex types
+### complex types
 ```javascript
 var aa = [{a:2},{a:1},{a:1},{a:1}];
 var bb = dedupe(aa);
@@ -26,7 +32,7 @@ console.log(bb);
 //result: [{a:2},{a:1}]
 ```
 
-## complex types types with custom hasher
+### complex types types with custom hasher
 ```javascript
 var aaa = [{a:2, b:1},{a:1, b:2},{a:1, b:3},{a:1, b:4}];
 var bbb = dedupe(aaa, function(value) { return value.a; });
