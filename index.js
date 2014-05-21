@@ -1,5 +1,7 @@
+var sigmund = require('sigmund');
+
 function dedupe(client, hasher) {
-    hasher = hasher || JSON.stringify;
+    hasher = hasher || sigmund;
 
     var clone = [];
     var lookup = {};
