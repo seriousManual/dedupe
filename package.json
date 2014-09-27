@@ -11,8 +11,8 @@
     "sigmund": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "^1.19.0",
-    "chai": "^1.9.1"
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
   },
   "files": [
     "index.js"
@@ -20,7 +20,9 @@
   "main": "./index.js",
   "keywords": [
     "duplicates",
-    "array"
+    "array",
+    "remove duplicates",
+    "distinct"
   ],
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests"
