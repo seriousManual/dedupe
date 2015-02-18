@@ -6,11 +6,11 @@ function dedupe(client, hasher) {
     var clone = [];
     var lookup = {};
 
-    for(var i = 0; i < client.length; i++) {
+    for (var i = 0; i < client.length; i++) {
         var elem = client[i];
         var hashed = hasher(elem);
 
-        if(!lookup[hashed]) {
+        if (!lookup[hashed]) {
             clone.push(elem);
             lookup[hashed] = true;
         }
