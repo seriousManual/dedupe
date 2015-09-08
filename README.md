@@ -1,4 +1,4 @@
-# dedupe [![Build Status](https://travis-ci.org/zaphod1984/dedupe.png)](https://travis-ci.org/zaphod1984/dedupe)
+# dedupe [![Build Status](https://travis-ci.org/seriousManual/dedupe.png)](https://travis-ci.org/seriousManual/dedupe)
 
 [![NPM](https://nodei.co/npm/dedupe.png)](https://nodei.co/npm/dedupe/)
 

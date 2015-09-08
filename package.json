@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaphod1984/dedupe.git"
+    "url": "https://github.com/seriousManual/dedupe.git"
   },
   "author": "Manuel Ernst <zaphod84@gmx.de>",
   "dependencies": {
