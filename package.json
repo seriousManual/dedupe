@@ -8,11 +8,11 @@
   },
   "author": "Manuel Ernst <zaphod84@gmx.de>",
   "dependencies": {
-    "sigmund": "^1.0.0"
+    "sigmund": "1.0.1"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.21.4"
+    "chai": "1.10.0",
+    "mocha": "1.21.5"
   },
   "files": [
     "index.js"
