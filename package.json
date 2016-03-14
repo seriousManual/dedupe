@@ -1,7 +1,7 @@
 {
   "name": "dedupe",
   "description": "remove duplicates from your array",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/seriousManual/dedupe.git"
@@ -27,7 +27,7 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests"
   },
-  "engines" : {
-    "node" : ">=4.0"
+  "engines": {
+    "node": ">=4.0"
   }
 }
