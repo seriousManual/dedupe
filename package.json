@@ -11,8 +11,8 @@
     "sigmund": "1.0.1"
   },
   "devDependencies": {
-    "chai": "1.10.0",
-    "mocha": "1.21.5"
+    "chai": "3.5.0",
+    "mocha": "2.3.3"
   },
   "files": [
     "index.js"
