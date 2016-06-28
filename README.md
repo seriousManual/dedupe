@@ -26,6 +26,8 @@ console.log(b)
 ```
 
 ### complex types
+Here the string representation of the object is used for comparism. The mechanism is similar to JSON.stringifing but a bit more efficient.
+That means that `{}` is considered egal to `{}`. 
 ```javascript
 var dedupe = require('dedupe')
 
