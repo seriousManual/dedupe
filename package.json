@@ -22,7 +22,9 @@
     "duplicates",
     "array",
     "remove duplicates",
-    "distinct"
+    "distinct",
+    "deduplicate",
+    "deduplication"
   ],
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests"
