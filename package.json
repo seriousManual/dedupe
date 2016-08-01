@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "chai": "^3.5",
-    "mocha": "^2.5.3"
+    "mocha": "^3.0.0"
   },
   "files": [
     "index.js"
