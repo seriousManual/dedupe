@@ -28,7 +28,7 @@
     "deduplication"
   ],
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests"
+    "test": "mocha tests"
   },
   "engines": {
     "node": ">=4.0"
