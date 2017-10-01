@@ -1,6 +1,6 @@
 var expect = require('chai').expect
 
-var dedupe = require('../')
+var dedupe = require('./')
 
 describe('dedupe', () => {
     it('should remove duplicates', () => {

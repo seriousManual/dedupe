@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/seriousManual/dedupe.git"
   },
-  "author": "Manuel Ernst <zaphod84@gmx.de>",
+  "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "license": "MIT",
   "dependencies": {
     "sigmund": "1.0.1"
@@ -28,7 +28,7 @@
     "deduplication"
   ],
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha test"
   },
   "engines": {
     "node": ">=4.0"

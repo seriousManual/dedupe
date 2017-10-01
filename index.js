@@ -1,6 +1,6 @@
 var sigmund = require('sigmund')
 
-function dedupe(client, hasher) {
+function dedupe (client, hasher) {
     hasher = hasher || sigmund
 
     var clone = []
