@@ -8,9 +8,7 @@
   },
   "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "license": "MIT",
-  "dependencies": {
-    "sigmund": "1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5",
     "mocha": "^3.4.0"

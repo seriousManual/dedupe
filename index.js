@@ -1,14 +1,12 @@
-var sigmund = require('sigmund')
-
 function dedupe (client, hasher) {
-    hasher = hasher || sigmund
+    hasher = hasher || JSON.stringify
 
-    var clone = []
-    var lookup = {}
+    const clone = []
+    const lookup = {}
 
-    for (var i = 0; i < client.length; i++) {
-        var elem = client[i]
-        var hashed = hasher(elem)
+    for (let i = 0; i < client.length; i++) {
+        let elem = client[i]
+        let hashed = hasher(elem)
 
         if (!lookup[hashed]) {
             clone.push(elem)
