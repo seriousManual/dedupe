@@ -1,3 +1,5 @@
+'use strict'
+
 function dedupe (client, hasher) {
     hasher = hasher || JSON.stringify
 
