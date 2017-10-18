@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 
 const dedupe = require('./')
@@ -38,5 +40,12 @@ describe('dedupe', () => {
         let deduped = dedupe([myDate, myDate, myDate])
 
         expect(deduped).to.deep.equal([myDate])
+    })
+
+    it('should remove date duplicates inside a complex object', () => {
+        let myDate = new Date(2017, 0, 1)
+        let deduped = dedupe([{date: myDate}, {date: myDate}, {date: myDate}])
+
+        expect(deduped).to.deep.equal([{date: myDate}])
     })
 })
