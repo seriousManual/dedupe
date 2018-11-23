@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5",
-    "mocha": "^3.4.0"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   },
   "files": [
     "index.js"
