@@ -1,7 +1,7 @@
 {
   "name": "dedupe",
   "description": "easy deduplication of array values",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/seriousManual/dedupe.git"
