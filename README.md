@@ -1,9 +1,5 @@
 # dedupe [![Build Status](https://travis-ci.org/seriousManual/dedupe.png)](https://travis-ci.org/seriousManual/dedupe)
 
-[![NPM](https://nodei.co/npm/dedupe.png)](https://nodei.co/npm/dedupe/)
-
-[![NPM](https://nodei.co/npm-dl/dedupe.png?months=12)](https://nodei.co/npm/dedupe/)
-
 removes duplicates from your array.
 
 ## Installation
