@@ -22,7 +22,7 @@ console.log(b)
 ```
 
 ### complex types
-Here the string representation of the object is used for comparism. The mechanism is similar to JSON.stringifing but a bit more efficient.
+Here the string representation of the object is used for comparism. Internal `JSON.stringify` is used for serialization.
 That means that `{}` is considered egal to `{}`. 
 ```javascript
 var dedupe = require('dedupe')
@@ -35,6 +35,7 @@ console.log(bb)
 ```
 
 ### complex types types with custom hasher
+You can use a custom hasher to overwrite the default behaviour.
 ```javascript
 var dedupe = require('dedupe')
 
