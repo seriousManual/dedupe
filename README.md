@@ -5,12 +5,13 @@ removes duplicates from your array.
 ## Installation
 
 ````bash
-$ npm install dedupe
+npm install dedupe
 ````
 
 ## Usage
 
 ### primitive types
+
 ```javascript
 var dedupe = require('dedupe')
 
@@ -22,8 +23,10 @@ console.log(b)
 ```
 
 ### complex types
+
 Here the string representation of the object is used for comparism. Internal `JSON.stringify` is used for serialization.
-That means that `{}` is considered egal to `{}`. 
+That means that `{}` is considered equal to `{}`.
+
 ```javascript
 var dedupe = require('dedupe')
 
@@ -35,7 +38,9 @@ console.log(bb)
 ```
 
 ### complex types types with custom hasher
+
 You can use a custom hasher to overwrite the default behaviour.
+
 ```javascript
 var dedupe = require('dedupe')
 
