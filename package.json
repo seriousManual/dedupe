@@ -1,31 +1,41 @@
 {
   "name": "dedupe",
+  "author": "Manuel Ernst <seriousstuff@gmx.de>",
+  "license": "MIT",
   "description": "easy deduplication of array values",
   "version": "3.0.3",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/seriousManual/dedupe.git"
   },
-  "author": "Manuel Ernst <seriousstuff@gmx.de>",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0"
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle --no-sourcemap"
   },
-  "files": [
-    "index.js"
-  ],
-  "main": "./index.js",
+  "source": "./index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.esm.js",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.esm.js",
+  "umd:main": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "duplicates",
+    "dupes",
     "array",
     "remove duplicates",
     "distinct",
     "deduplicate",
     "deduplication"
   ],
-  "scripts": {
-    "test": "mocha test"
+  "devDependencies": {
+    "@types/jest": "^29.0.2",
+    "microbundle": "^0.15.1",
+    "ts-jest": "^29.0.1"
   },
   "engines": {
     "node": ">=4.0"
