@@ -13,10 +13,10 @@ npm install dedupe
 ### primitive types
 
 ```javascript
-var dedupe = require('dedupe')
+import dedupe from 'dedupe'
 
-var a = [1, 2, 2, 3]
-var b = dedupe(a)
+const a = [1, 2, 2, 3]
+const b = dedupe(a)
 console.log(b)
 
 //result: [1, 2, 3]
@@ -28,10 +28,10 @@ Here the string representation of the object is used for comparism. Internal `JS
 That means that `{}` is considered equal to `{}`.
 
 ```javascript
-var dedupe = require('dedupe')
+import dedupe from 'dedupe'
 
-var aa = [{a: 2}, {a: 1}, {a: 1}, {a: 1}]
-var bb = dedupe(aa)
+const aa = [{a: 2}, {a: 1}, {a: 1}, {a: 1}]
+const bb = dedupe(aa)
 console.log(bb)
 
 //result: [{a: 2}, {a: 1}]
@@ -42,10 +42,10 @@ console.log(bb)
 You can use a custom hasher to overwrite the default behaviour.
 
 ```javascript
-var dedupe = require('dedupe')
+import dedupe from 'dedupe'
 
-var aaa = [{a: 2, b: 1}, {a: 1, b: 2}, {a: 1, b: 3}, {a: 1, b: 4}]
-var bbb = dedupe(aaa, value => value.a)
+const aaa = [{a: 2, b: 1}, {a: 1, b: 2}, {a: 1, b: 3}, {a: 1, b: 4}]
+const bbb = dedupe(aaa, value => value.a)
 console.log(bbb)
 
 //result: [{a: 2, b: 1}, {a: 1,b: 2}]
