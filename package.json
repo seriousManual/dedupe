@@ -3,7 +3,7 @@
   "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "license": "MIT",
   "description": "easy deduplication of array values",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "type": "module",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
     "microbundle": "^0.15.1",
     "ts-jest": "^29.0.1"
   },
-  "files":[
+  "files": [
     "dist"
   ],
   "engines": {
