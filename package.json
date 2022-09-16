@@ -37,6 +37,9 @@
     "microbundle": "^0.15.1",
     "ts-jest": "^29.0.1"
   },
+  "files":[
+    "dist"
+  ],
   "engines": {
     "node": ">=4.0"
   }
