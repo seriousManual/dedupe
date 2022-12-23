@@ -10,6 +10,7 @@
     "url": "https://github.com/seriousManual/dedupe.git"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
     "prepublish": "npm run build",
     "test": "jest",
     "build": "microbundle --no-sourcemap"
