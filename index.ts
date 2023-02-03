@@ -1,20 +1,11 @@
-type Hasher<T> = (input: T) => string
+type Hasher<T = string> = (...arg: any) => T
 
-function dedupe <T>(list: T[], hasher: Hasher<T> = JSON.stringify) {
-    const clone: T[] = []
-    const lookup: Record<string, boolean> = {}
-
-    for (let i = 0; i < list.length; i++) {
-        let entry = list[i]
-        let hashed = hasher(entry)
-
-        if (!lookup[hashed]) {
-            clone.push(entry)
-            lookup[hashed] = true
-        }
-    }
-
-    return clone
+export default function dedupe <T, U = string>(list: T[], hasher: Hasher<U> = JSON.stringify as Hasher<U>) {
+    const cache = new Set<U>()
+    return list.filter(item => {
+        const hashed = hasher(item)
+        const repeated = cache.has(hashed)
+        cache.add(hashed)
+        return !repeated
+    })
 }
-
-export default dedupe
