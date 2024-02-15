@@ -1,4 +1,4 @@
-# dedupe [![Build Status](https://travis-ci.org/seriousManual/dedupe.png)](https://travis-ci.org/seriousManual/dedupe)
+# dedupe
 
 removes duplicates from your array.
 
